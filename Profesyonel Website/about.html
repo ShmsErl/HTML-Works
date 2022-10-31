@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creat Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/3778120.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img class="logo" src="images/logo.png" alt="Logo"></a>
+            <div class="menu" id="menu">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu();"></i>
+        </nav>
+        <h1>ABOUT US</h1>
+    
+
+    </section>
+
+   <section class="about-us">
+    <div class="article">
+        <div class="about-col">
+            <h1>We Are The World's Largest University</h1>
+            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of 
+                pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; 
+                and equal blame belongs to those who fail in their 
+                duty through weakness of will, which is the same as saying through shrinking from toil and pain.
+            </p>
+                <a href="#">EXPLORE NOW</a>
+
+        </div>
+        <div class="about-col">
+            <img src="/images/about.jpg" alt="about">
+            
+        </div>
+    </div>
+   </section>
+
+
+
+    <!-- FOOTER-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+            laudantium,
+            totam rem aperiam,<br>eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+            incidunt ut labore et dolore magnam aliq.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class=" fa fa-heart-o"></i> by Şehmus Erol</p>
+    </section>
+
+
+
+
+
+
+
+
+    <script>
+        var menu = document.getElementById("menu");
+
+        function showMenu() {
+            menu.style.right = "0";
+        }
+        function hideMenu() {
+            menu.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
