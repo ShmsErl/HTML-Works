@@ -1,0 +1,388 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: auto;
+    font-family: 'Poppins';
+}
+
+.container {
+
+    display: grid;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+    align-items: center;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 4em;
+   
+    
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+}
+
+/* headar section end */
+
+/* main section start */
+
+main {
+
+    margin-top: 4em;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+
+}
+
+.left-col {
+    display: block;
+    margin-left: 1em;
+}
+
+.left-col h1 {
+    margin: 0;
+    color: black;
+    font-weight: normal;
+    font-size: 4.2rem;
+    font-family: 'playfair-display';
+}
+
+.left-col p {
+    margin-top: 1em;
+    font-size: 1.6rem;
+    display: block;
+    color: black;
+    font-weight: 300;
+    width: 25em;
+
+}
+
+.btn_our {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3em;
+
+}
+
+.btn_our .product_btn {
+    background-color: #F1E2D1;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.9em;
+    padding: 1em 1em;
+    font-family: 'playfair-display';
+
+}
+
+.btn_spring a {
+    display:flex;
+    gap: 1em;
+    padding: 1em 1em;
+
+    border-radius: 1.9em;
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 300;
+
+}
+
+.btn_spring a svg {
+    width: 30px;
+}
+
+.right-col {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 1em;
+
+}
+
+.card {
+    width: 100%;
+    border-radius: 1em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card img {
+    width: 100%;
+    height: max-content;
+    border-radius: 1em;
+    
+}
+
+.card-details {
+    background-color: rgb(255, 253, 253);
+    border-radius: 1em;
+    margin-top: 1em;
+    position: relative;
+
+
+}
+
+.card-details .product-title {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+.card-details div p {
+    color: rgb(17, 1, 1);
+    font-size: 1rem;
+    font-weight: 400;
+    
+
+}
+.card-details .product-price {
+    padding: 8px ;
+    border: 1px dotted yellowgreen;
+    display: inline;
+ 
+    
+}
+.card-details .btn_buy {
+    position: absolute;
+    top: 30%;
+    right: 4em;
+
+    
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border: 1px dotted black;
+    border-radius: 1em;
+    background-color: rgb(43, 175, 220);
+    padding: 10px;
+
+}
+.card-details .btn_buy:hover {
+    background-color:beige;
+    color: black;
+    
+
+}
+
+/* main end  */
+
+
+/* footer start  */
+
+
+
+
+footer {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    height: 41.7em;
+    max-width: 1550px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    position: relative;
+    margin-top: 5em;
+   
+    
+
+
+
+
+
+}
+
+
+
+.information {
+    display: flex;
+    flex-direction: column;
+    margin: 5em;
+
+
+}
+
+footer nav {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 0;
+}
+
+footer nav ul li {
+
+    list-style: none;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.alt-urunler .active {
+    position: relative;
+}
+
+
+.alt-urunler {
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    gap:2em;
+    display: none;
+    width:auto;
+    height: 0;
+    
+  
+}
+.alt-urunler li  {
+    border: 1px solid rgb(183, 175, 175);
+    padding: 3px 2em;
+    cursor: pointer;
+
+    
+}
+.alt-urunler li:hover {
+    background:#f6b49e ;
+}
+nav ul .active:hover .alt-urunler {
+    display: block;
+}
+----------------------------------------------------
+.contact-container .item {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.contact-container .item p {
+
+    width: 15em;
+
+}
+
+.contacts-1 {
+
+    margin-top: 5em;
+}
+
+.contacts-1 p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.social-media {
+    margin-top: 5em;
+}
+
+
+footer i {
+    color: whitesmoke;
+    position: relative;
+
+}
+
+.icons {
+    display: flex;
+    gap: 2em;
+    
+
+}
+
+
+
+footer h4 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.line {
+    position: absolute;
+    border-top: 1px solid rgb(211, 202, 202, .2);
+    width: 100%;
+    bottom: 3.5em;
+
+
+
+}
+
+.line p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 200;
+    padding-top: 2em;
+
+}
+
+
+/* Pantolon sayfası */ 
+.ust-baslik {
+    margin:1em 1em 1em 1em;
+    border: 2px dotted rgb(209, 38, 201);
+    padding: 3em;
+    text-align: center;
+    border-radius: 1em;
+    margin:0 0 1em 0;
+}
+.urun-title{
+    text-align: center;
+    
+    
+}
+.urun-title h1 {
+    font-family:'Times New Roman', Times, serif ;
+    text-transform: uppercase;
+    color: rgb(11, 11, 11);
+}
+
+.pantolon-bölümü {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    
+}
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 2em;
+
+}
+
+
