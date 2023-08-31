@@ -12,7 +12,7 @@
 
 body{
     
-    background:url('/images/bg.jpg');
+    background:url('../images/bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -35,7 +35,8 @@ header nav{
      justify-content: space-between;
      align-items: center;
      height: 100%;
-   
+     flex-wrap: wrap;
+  
 
 }
 header nav .logo a{
@@ -49,7 +50,7 @@ nav ul {
     list-style: none;
     display: flex;
     column-gap: 30px;
-}
+    }
 nav ul li a{
     color: white;
     text-decoration: none;
